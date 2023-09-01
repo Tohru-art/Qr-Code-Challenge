@@ -1,0 +1,46 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    align-items: center;
+    margin: 8em auto;
+    max-width: 1440px;
+    display: inline-flex;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.qr-code img {
+    display: block;
+    width: 220px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+h3 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 12px;
+}

@@ -44,3 +44,13 @@ p {
     font-weight: 400;
     font-size: 12px;
 }
+
+/* RESPONSIVE DESIGN FOR MOBILE*/
+
+@media screen and (max-width:375px){
+    .container {
+        width: 80%;
+        height: auto;
+    }
+    
+}

@@ -49,8 +49,10 @@ p {
 
 @media screen and (max-width:375px){
     .container {
-        width: 80%;
-        height: auto;
+        margin: 6em auto;
+        padding: 1rem calc((var(--bs-gutter-x) * -1)/2);
+        border-radius: unset !important;
+        
     }
     
 }
